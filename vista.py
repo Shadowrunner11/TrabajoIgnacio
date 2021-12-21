@@ -32,6 +32,9 @@ def wrapIngresarPaciente ():
 
 
 def menuInput (menu):
+    """
+    Descripción de la función
+    """   
     seleccion2 = input(menu)
     menuprincipal[int(seleccion)-1][int(seleccion2)]()
   
